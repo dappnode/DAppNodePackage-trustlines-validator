@@ -1,13 +1,13 @@
 {
-  "name": "trustlines.dnp.dappnode.eth",
+  "name": "trustlines-validator.dnp.dappnode.eth",
   "version": "0.1.0",
-  "upstreamVersion": "release4044",
-  "shortDescription": "Financial inclusion through OS decentralized systems",
+  "upstreamVersion": "release20421",
+  "shortDescription": "Leveraging trust to achieve financial and economic inclusion of all people.",
   "description": "The Trustlines Protocol aims to provide the service of “transfer of value” without actually transferring value. This can be accomplished by leveraging networks of mutual-trust. The Trustlines Protocol is being built to support a range of use cases by leveraging existing networks of mutual trust and mapping trust-based relationships onto trustless infrastructure",
   "avatar": "/ipfs/QmcpEAc5CsaSD5jc1rkmiGtjtpxDaWDMHUWWh2tUgXFhDC",
   "type": "service",
   "requirements": {
-    "minimumDappnodeVersion": "0.2.10"
+    "minimumDappnodeVersion": "0.2.19"
   },
   "backup": [
     {
@@ -25,16 +25,23 @@
   ],
   "categories": ["Blockchain"],
   "links": {
-    "homepage": "https://github.com/dappnode/DAppNodePackage-trustlines#readme",
+    "homepage": "https://github.com/dappnode/DAppNodePackage-trustlines-validator#readme",
     "trustlines": "https://trustlines.network",
-    "explorer": "https://explorelaika.trustlines.foundation"
+    "netstats": "https://netstats.tlbc.trustlines.foundation",
+    "explorer": "https://blockexplorer.trustlines.foundation/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dappnode/DAppNodePackage-trustlines.git"
+    "url": "https://github.com/dappnode/DAppNodePackage-trustlines-validator.git"
   },
   "bugs": {
-    "url": "https://github.com/dappnode/DAppNodePackage-trustlines/issues"
+    "url": "https://github.com/dappnode/DAppNodePackage-trustlines-validator/issues"
   },
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "runOrder": ["trustlines-validator.dnp.dappnode.eth","trustlines-netstats.dnp.dappnode.eth","trustlines-bridge.dnp.dappnode.eth","trustlines-monitor.dnp.dappnode.eth"],
+  "dependencies" : {
+    "trustlines-netstats.dnp.dappnode.eth":"/ipfs/QmStSWeTzpPQeoaDP6fuRXaeKakEXKjXS3XrSe3iNfuikC",
+    "trustlines-bridge.dnp.dappnode.eth":"/ipfs/QmPsh8b4mjgYkiKtVS1tJMmyWoeoNNVc1pWiLGfZH42qK2",
+    "trustlines-monitor.dnp.dappnode.eth":"/ipfs/QmP99kc7fuzzu2HE2xQuY99DHPpPEoJ3W7L7MhffmvXyh1"
+  }
 }
