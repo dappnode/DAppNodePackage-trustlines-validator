@@ -40,7 +40,7 @@
   "license": "GPL-3.0",
   "runOrder": ["trustlines-validator.dnp.dappnode.eth","trustlines-netstats.dnp.dappnode.eth","trustlines-bridge.dnp.dappnode.eth","trustlines-monitor.dnp.dappnode.eth"],
   "dependencies" : {
-    "trustlines-netstats.dnp.dappnode.eth":"/ipfs/QmStSWeTzpPQeoaDP6fuRXaeKakEXKjXS3XrSe3iNfuikC",
+    "trustlines-netstats.dnp.dappnode.eth":"/ipfs/QmPJktTvvmfUUrZJ7ZCaxAdocA3QFh1CPGSQJmMAoJnWtU",
     "trustlines-bridge.dnp.dappnode.eth":"/ipfs/QmPsh8b4mjgYkiKtVS1tJMmyWoeoNNVc1pWiLGfZH42qK2",
     "trustlines-monitor.dnp.dappnode.eth":"/ipfs/QmP99kc7fuzzu2HE2xQuY99DHPpPEoJ3W7L7MhffmvXyh1"
   }
