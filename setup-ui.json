@@ -1,5 +1,5 @@
 {
-  "ui:order": ["*"],
+  "ui:order": ["keystore", "keystoreAddress", "keystorePassword"],
   "keystorePassword": {
     "ui:widget": "password"
   },

@@ -1,32 +1,21 @@
 # DAppNodePackage-trustlines
 
+Pre-configured node for Trustline validators.
+
+This package is for those who successfully bid for a [Validator slot](https://medium.com/trustlines-foundation/trustlines-validator-spotlight-deep-dive-on-rewards-economics-and-opportunities-for-validators-ec75f81088a6) during Trustlines Foundation's Validator Auction and will be validating the network.
+
+Please note you won't be able to Validate if your address was not whitelisted at the end of the Validator Slots auction. You can check if your address addresses is valid if it appears in [this list](https://github.com/trustlines-protocol/blockchain/blob/1c664ff7d28998b7070c9edb3b325062a5365aad/chain/tlbc/tlbc-spec.json#L11).
+
+## Trustlines
+
 The [Trustlines Protocol](https://trustlines.network/) aims to provide the service of “transfer of value” without actually transferring value. This can be accomplished by leveraging networks of mutual-trust. The [Trustlines Protocol](https://trustlines.network/) is being built to support a range of use cases by leveraging existing networks of mutual trust and mapping trust-based relationships onto trustless infrastructure.
 
 The official documentation of [Trustlines Network](https://trustlines.network/) can be found [here](https://docs.trustlines.network/)
 
-Installing the Trustlines Network DAppNode package you can be observer ( a node without an account) , participant ( a node with an address) or validator in case you are a Trustlines validator.
+## License
 
-## How to setup my node as observer
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
 
-Just by installing the package this will be the default mode, you don't need to do anything else.
+## Note
 
-## How to setup my node as participant
-
-Please follow this steps after the package installation: 
-
-* Go to File Manager and upload a keystore file with the address you want to use 
-* Go to the config tab and type the address of the keystore you uploaded, its password and the word participant in the "Role" field
-* Hit update environmentvariables
-
-
-
-
-
-
-
-
-
-
-
-
-
+This is early stage software
