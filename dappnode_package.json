@@ -6,13 +6,14 @@
   "description": "The Trustlines Protocol aims to provide the service of “transfer of value” without actually transferring value. This can be accomplished by leveraging networks of mutual-trust. The Trustlines Protocol is being built to support a range of use cases by leveraging existing networks of mutual trust and mapping trust-based relationships onto trustless infrastructure",
   "avatar": "/ipfs/QmcpEAc5CsaSD5jc1rkmiGtjtpxDaWDMHUWWh2tUgXFhDC",
   "type": "service",
+  "chain": "ethereum",
   "requirements": {
     "minimumDappnodeVersion": "0.2.19"
   },
   "backup": [
     {
       "name": "config",
-      "path": "/config"
+      "path": "/config/custom"
     }
   ],
   "style": {
@@ -42,6 +43,6 @@
   "dependencies" : {
     "trustlines-netstats.dnp.dappnode.eth":"/ipfs/QmPJktTvvmfUUrZJ7ZCaxAdocA3QFh1CPGSQJmMAoJnWtU",
     "trustlines-bridge.dnp.dappnode.eth":"/ipfs/QmPsh8b4mjgYkiKtVS1tJMmyWoeoNNVc1pWiLGfZH42qK2",
-    "trustlines-monitor.dnp.dappnode.eth":"/ipfs/QmP99kc7fuzzu2HE2xQuY99DHPpPEoJ3W7L7MhffmvXyh1"
+    "trustlines-monitor.dnp.dappnode.eth":"/ipfs/QmYj1nKcsuLCCpWWTUiG5pxFgAbVebyTVay31ubXP78vZS"
   }
 }

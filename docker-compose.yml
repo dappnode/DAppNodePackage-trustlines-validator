@@ -20,4 +20,5 @@ volumes:
   tlbc: {}
   config: {}
   enode: {}
-  shared: {}
+  shared:
+    name: trustlines_shared
