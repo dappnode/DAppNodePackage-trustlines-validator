@@ -14,5 +14,13 @@
       "dappnode": "Mon, 09 Dec 2019 15:40:52 GMT"
     },
     "link": "http://my.dappnode/#/sdk/publish/r=trustlines-validator.dnp.dappnode.eth&v=0.1.1&h=%2Fipfs%2FQmXGgkaX1tGwJVnTPT9dW6Gyow6U8XSazUfdgz7WNVRhb8"
+  },
+  "0.1.2": {
+    "hash": "/ipfs/QmSC7dnP4zbtTj3fyUNu1fbhftjwuQjSW8Xmd9ZqYjUCvn",
+    "type": "directory",
+    "uploadedTo": {
+      "dappnode": "Thu, 26 Dec 2019 19:48:53 GMT"
+    },
+    "link": "http://my.dappnode/#/sdk/publish/r=trustlines-validator.dnp.dappnode.eth&v=0.1.2&h=%2Fipfs%2FQmSC7dnP4zbtTj3fyUNu1fbhftjwuQjSW8Xmd9ZqYjUCvn"
   }
 }
