@@ -10,7 +10,6 @@ services:
       - 'tlbc:/data'
       - 'config:/config/custom'
       - 'enode:/config/network'
-      - 'shared:/shared'
     environment:
       - ADDRESS=
       - PASSWORD=
@@ -20,5 +19,3 @@ volumes:
   tlbc: {}
   config: {}
   enode: {}
-  shared:
-    name: trustlines_shared
